@@ -1,0 +1,39 @@
+version: "3"
+ 
+services:
+   master:
+    image: cassandra:latest
+    container_name: master
+    ports:
+     - '9042:9042'
+    volumes:
+     - masterv:/var/lib/cassandra
+  
+   node2:
+    image: cassandra:latest
+    container_name: node2
+    ports:
+     - '9043:9042'
+    volumes:
+     - node2v:/var/lib/cassandra
+    environment:
+     - CASSANDRA_SEEDS=master
+    depends_on:
+       - master
+  
+   node3:
+    image: cassandra:latest
+    container_name: node3
+    ports:
+     - '9044:9042'
+    volumes:
+     - node3v:/var/lib/cassandra
+    environment:
+     - CASSANDRA_SEEDS=master
+    depends_on:
+       - node2
+  
+volumes:
+ masterv:
+ node2v:
+ node3v:

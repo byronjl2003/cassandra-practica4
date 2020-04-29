@@ -1,0 +1,23 @@
+FROM ubuntu:18.04
+
+
+RUN apt-get update -y && apt-get upgrade -y
+RUN apt-get install -y software-properties-common
+RUN add-apt-repository ppa:deadsnakes/ppa
+#RUN apt-get install -y python3.7
+RUN apt-get install -y python-pip python-dev
+#RUN pip install --upgrade pip
+RUN apt-get install -y build-essential libev4 libev-dev python-snappy
+
+# We copy just the requirements.txt first to leverage Docker cache
+COPY ./requirements.txt /app/requirements.txt
+
+WORKDIR /app
+
+RUN pip install -r requirements.txt
+
+COPY . /app
+EXPOSE 8080
+ENTRYPOINT [ "python" ]
+
+CMD [ "server.py" ]

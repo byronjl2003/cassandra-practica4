@@ -1,0 +1,56 @@
+Jóvenes, buena tarde, para trasladarles la cuarta y ultima práctica del curso.
+
+Deben realizar una pequeña aplicación para levantado de tickets, se deben registrar los datos,
+
+* Fecha del ticket
+* Correo del usuario solicitante
+* Titulo del ticket
+* Descripción el ticket
+
+Y alimentar las tablas de las consultas.
+
+Adicional incluir las pantallas para realizar las consultas,
+
+* Tickets por rango de fechas
+* Tickets por usuario por rango de fechas
+
+Para cada una los campos de búsqueda, rango de fechas y correo del usuario según corresponda.
+
+Fecha de entrega/calificación 29 de abril, yo les comparto luego el horario de calificación.
+
+El entregable un documento con las pantallas trabajadas.
+
+
+
+
+
+$("#idForm").submit(function(e) {
+
+    e.preventDefault(); // avoid to execute the actual submit of the form.
+    console.log('jijijiji');
+    var form = document.getElementById("idForm");
+    var y = document.getElementById("infotickets");
+    var data = new FormData(form);
+    /*
+    var x = document.getElementById("divspinner");
+   
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    }
+    */
+    $.ajax({
+        type: "POST",
+        enctype: 'application/x-www-form-urlencoded',
+        url: '/ticket',
+        data: data, // serializes the form's elements.
+        processData: false,
+        contentType: false,
+        cache: false,
+        success: function(data) {
+            console.log(data); // show response from the php script.
+            y.innerHTML = data;
+        }
+    });
+
+
+});
