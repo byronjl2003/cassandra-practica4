@@ -7,7 +7,7 @@ from prueba import get_tikets_por_fechas,get_tikets_por_usuario_rango_fechas,ins
 app = Flask(__name__)
 @app.route('/')
 def index():
-    return render_template("index.html",autor1 = {"nombre":"Walter","apellido":"Mendoza"},autor2 = {"nombre":"Byron","apellido":"Lopez"},mensaje=('','',''))
+    return render_template("index.html",autor1 = {"nombre":"Byron","apellido":"Lopez"},mensaje=('','',''))
 @app.route('/otroget')
 def otroget():
     print("otroget")
