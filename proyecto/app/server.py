@@ -37,7 +37,7 @@ def post_patentes():
     print('LLEGO a cargar patentes')
     files = request.files
     fl = files.listvalues()
-    print(fl)
+    #print(fl)
 
     for f  in fl:
         for f2 in f:

@@ -156,8 +156,9 @@ def get_tikets_por_usuario_rango_fechas(correo,fecha1,fecha2):
 
 
 def main():
-    cluster = Cluster(['master'],protocol_version = 3)
-    session = cluster.connect()
+    cassandra_insert_patentes_masivos('temporales/patents-original.json')
+    #cluster = Cluster(['master'],protocol_version = 3)
+    #session = cluster.connect()
 
     #rows = session.execute("SELECT keyspace_name FROM system.schema_keyspaces")
     #if KEYSPACE in [row[0] for row in rows]:
@@ -198,19 +199,19 @@ def main():
     #    session.execute(query, dict(key="key%d" % i, a='a', b='b'))
     #    session.execute(prepared.bind(("key%d" % i, 'b', 'b')))
 
-    future = session.execute_async("select * from soporte.tickets_por_rango_fechas")
-    log.info("key\tcol1\tcol2")
-    log.info("---\t----\t----")
+    #future = session.execute_async("select * from soporte.tickets_por_rango_fechas")
+    #log.info("key\tcol1\tcol2")
+    #log.info("---\t----\t----")
 
-    try:
-        rows = future.result()
-    except Exception:
-        log.exeception()
+    #try:
+    #    rows = future.result()
+    #except Exception:
+    #    log.exeception()
 
-    for row in rows:
-        print(row.fec)
+    #for row in rows:
+    #    print(row.fec)
 
     #session.execute("DROP KEYSPACE " + KEYSPACE)
 
-#if __name__ == "__main__":
-#    main()
+if __name__ == "__main__":
+    main()
