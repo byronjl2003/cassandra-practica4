@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Proyecto1</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='bootstrap.min.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='mystyles.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='jquery-ui.css') }}" />
+    
+</head>
+
+<body>
+    <div class="navbar navbar-expand-lg fixed-top navbar-dark bg-primary">
+        <div class="container">
+            <a href="../" class="navbar-brand">Práctica No. 2</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/">Patentes <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/cargas">Cargas </a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="jumbotron">
+            <h1 class="display-3">Comision mundial de patentes CPM</h1>
+            <div class="card text-white bg-primary mb-3" style="max-width: 100rem;">
+                <div class="card-header">Ingrese datos de la patente</div>
+                <div class="card-body">
+                    <div class="row mb-2">
+                        <div class="col-md-6">
+                            <div class="col p-4 d-flex flex-column position-static">
+                                <form id="idForm" action="/ticket" method="POST" enctype="application/x-www-form-urlencoded" class="ajax">
+                                    <div class="form-group">
+                                        <div class="input-gruop mb-3">
+                                            {% if paises: %}
+                                            <div class="form-group">
+                                                <label for="sel1">Select list:</label>
+                                                <select class="form-control" id="sel1">
+                                                    {% for row in paises %}
+                                                    <option value="{{row.alpha2}}">{{row.nombre}}</option>
+                                                    {% endfor %}
+
+                                                </select>
+                                              </div>
+                                            {% endif %}
+                                            <div class="form-group">
+                                                <label for="exampleInputEmail1">Correo</label>
+                                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" name="correo">
+                                                
+                                              </div>
+                                              <div class="form-group">
+                                                <label for="titulo">Titulo</label>
+                                                <input type="text" class="form-control" id="titulo" placeholder="Titulo" name="titulo">
+                                              </div>
+                                              <div class="form-group">
+                                                <label for="descripcion">Descripcion</label>
+                                                <input type="text" class="form-control" id="descripcion placeholder="Titulo" name="descripcion">
+                                              </div>
+                                            <div class="input-group-append">
+                                                <input type="submit" value="Crear" class="input-group-text" />
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                                <div id="infotickets">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="card text-white bg-primary mb-3" style="max-width: 100rem;">
+                <div class="card-header">Tickets por rango de fechas</div>
+                <div class="card-body">
+                    <div class="row mb-2">
+                        <div class="col-md-6">
+                            <div class="col p-4 d-flex flex-column position-static">
+                                <form id="idForm2" action="/reporte1" method="POST" enctype="application/x-www-form-urlencoded" class="ajax">
+                                    <div class="form-group">
+                                        <div class="input-gruop mb-3">
+                                            
+                                            <div class="form-group">
+                                                <label for="datepicker2">Fecha Inicio</label>
+                                                <input type="text" id="datepicker2" name="fec1">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="datepicker3">Fecha Fin</label>
+                                                <input type="text" id="datepicker3" name="fec2">
+                                            </div>
+                                            
+                                            <div class="input-group-append">
+                                                <input type="submit" value="Generar" class="input-group-text" />
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div id="reporte1">
+
+                    </div>
+                </div>
+            </div>
+            <div class="card text-white bg-primary mb-3" style="max-width: 100rem;">
+                <div class="card-header">Tickets por usuario por rango de fechas</div>
+                <div class="card-body">
+                    <div class="row mb-2">
+                        <div class="col-md-6">
+                            <div class="col p-4 d-flex flex-column position-static">
+                                <form id="idForm3" action="/reporte2" method="POST" enctype="application/x-www-form-urlencoded" class="ajax">
+                                    <div class="form-group">
+                                        <div class="input-gruop mb-3">
+                                            
+                                            <div class="form-group">
+                                                <label for="datepicker4">Fecha Inicio</label>
+                                                <input type="text" id="datepicker4" name="fec1">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="datepicker5">Fecha Fin</label>
+                                                <input type="text" id="datepicker5" name="fec2">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="exampleInputEmail1">Correo</label>
+                                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" name="correo">
+                                                
+                                              </div>
+                                            
+                                            <div class="input-group-append">
+                                                <input type="submit" value="Generar" class="input-group-text" />
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div id="reporte2"></div>
+                </div>
+                
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    
+
+    <footer class="footer bg-dark rounded-top text-center">
+        <div class="container py-2">
+            <p class="text-white my-2">
+                &copy; {{autor1.nombre + ' ' + autor1.apellido + ' &'}} 
+            </p>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="{{ url_for('static', filename='code.js') }}"></script>
+    
+</body>
+
+</html>

@@ -1,0 +1,2019 @@
+{
+"patents": [
+        {
+            "patent_number": "6167582",
+            "patent_title": "Floating bridge",
+            "patent_year": "2001",
+            "patent_date": "2001-01-02",
+            "patent_type": "utility",
+            "inventors": [
+                {
+                    "inventor_id": "4681482-2",
+                    "inventor_country": "DE",
+                    "inventor_first_name": "Hans-Norbert",
+                    "inventor_last_name": "Wiedeck",
+                    "inventor_key_id": "806692"
+                }
+            ],
+            "assignees": [
+                {
+                    "assignee_lastknown_country": "DE",
+                    "assignee_key_id": "60086"
+                }
+            ],
+            "IPCs": [
+                {
+                    "ipc_section": "E"
+                }
+            ],
+            "examiners": [
+                {
+                    "examiner_first_name": "Kristine M.",
+                    "examiner_last_name": "Markovich",
+                    "examiner_role": "assistant",
+                    "examiner_id": "6g9xkf8ntls7u1hrq2csrg559"
+                },
+                {
+                    "examiner_first_name": "Thomas B.",
+                    "examiner_last_name": "Will",
+                    "examiner_role": "primary",
+                    "examiner_id": "inc6vbhvc8p3tqro3bbfscha8"
+                }
+            ]
+        },
+        {
+            "patent_number": "6167583",
+            "patent_title": "Double side cleaning apparatus for semiconductor substrate",
+            "patent_year": "2001",
+            "patent_date": "2001-01-02",
+            "patent_type": "utility",
+            "inventors": [
+                {
+                    "inventor_id": "3952183-1",
+                    "inventor_country": "JP",
+                    "inventor_first_name": "Masahiro",
+                    "inventor_last_name": "Abe",
+                    "inventor_key_id": "268975"
+                },
+                {
+                    "inventor_id": "4916086-3",
+                    "inventor_country": "JP",
+                    "inventor_first_name": "Naoto",
+                    "inventor_last_name": "Miyashita",
+                    "inventor_key_id": "964198"
+                }
+            ],
+            "assignees": [
+                {
+                    "assignee_lastknown_country": "JP",
+                    "assignee_key_id": "81777"
+                }
+            ],
+            "IPCs": [
+                {
+                    "ipc_section": "B"
+                }
+            ],
+            "examiners": [
+                {
+                    "examiner_first_name": "Kaj K.",
+                    "examiner_last_name": "Olsen",
+                    "examiner_role": "assistant",
+                    "examiner_id": "i80q84y2j3rrh5egn1wcly030"
+                },
+                {
+                    "examiner_first_name": "Robert J.",
+                    "examiner_last_name": "Warden, Sr.",
+                    "examiner_role": "primary",
+                    "examiner_id": "n6kq3cv470axso2e0p4831lmw"
+                }
+            ]
+        },
+        {
+            "patent_number": "6167584",
+            "patent_title": "Cleaning tool",
+            "patent_year": "2001",
+            "patent_date": "2001-01-02",
+            "patent_type": "utility",
+            "inventors": [
+                {
+                    "inventor_id": "6167584-1",
+                    "inventor_country": "SE",
+                    "inventor_first_name": "Hamid",
+                    "inventor_last_name": "Nassiri",
+                    "inventor_key_id": "1749206"
+                }
+            ],
+            "assignees": [
+                {
+                    "assignee_lastknown_country": "SE",
+                    "assignee_key_id": "97422"
+                }
+            ],
+            "IPCs": [
+                {
+                    "ipc_section": "A"
+                },
+                {
+                    "ipc_section": "B"
+                }
+            ],
+            "examiners": [
+                {
+                    "examiner_first_name": "Mark",
+                    "examiner_last_name": "Spisich",
+                    "examiner_role": "primary",
+                    "examiner_id": "7sbgl16hckdh1yyysxpkiknjd"
+                }
+            ]
+        },
+        {
+            "patent_number": "6167588",
+            "patent_title": "Vacuum cleaner with filter clogging indicating means",
+            "patent_year": "2001",
+            "patent_date": "2001-01-02",
+            "patent_type": "utility",
+            "inventors": [
+                {
+                    "inventor_id": "4373228-1",
+                    "inventor_country": "GB",
+                    "inventor_first_name": "James",
+                    "inventor_last_name": "Dyson",
+                    "inventor_key_id": "605364"
+                }
+            ],
+            "assignees": [
+                {
+                    "assignee_lastknown_country": "GB",
+                    "assignee_key_id": "101626"
+                }
+            ],
+            "IPCs": [
+                {
+                    "ipc_section": "A"
+                }
+            ],
+            "examiners": [
+                {
+                    "examiner_first_name": "Theresa T.",
+                    "examiner_last_name": "Snider",
+                    "examiner_role": "assistant",
+                    "examiner_id": "6gi4c9cc0u2lxnjbrmcvl5yzy"
+                },
+                {
+                    "examiner_first_name": "Robert J.",
+                    "examiner_last_name": "Warden, Sr.",
+                    "examiner_role": "primary",
+                    "examiner_id": "cmvtna6jvftop1ssixi5u3629"
+                }
+            ]
+        },
+        {
+            "patent_number": "6167593",
+            "patent_title": "Apparatus for varying the depth of a chute in a fiber feeder",
+            "patent_year": "2001",
+            "patent_date": "2001-01-02",
+            "patent_type": "utility",
+            "inventors": [
+                {
+                    "inventor_id": "3964860-1",
+                    "inventor_country": "DE",
+                    "inventor_first_name": "Ferdinand",
+                    "inventor_last_name": "Leifeld",
+                    "inventor_key_id": "284866"
+                }
+            ],
+            "assignees": [
+                {
+                    "assignee_lastknown_country": "DE",
+                    "assignee_key_id": "395810"
+                }
+            ],
+            "IPCs": [
+                {
+                    "ipc_section": "D"
+                }
+            ],
+            "examiners": [
+                {
+                    "examiner_first_name": "Gary L.",
+                    "examiner_last_name": "Welch",
+                    "examiner_role": "assistant",
+                    "examiner_id": "qq0elxgy0d237vpio6kmkcgyr"
+                },
+                {
+                    "examiner_first_name": "John J.",
+                    "examiner_last_name": "Calvert",
+                    "examiner_role": "primary",
+                    "examiner_id": "w4qv6oq4fpj6ganfoyr1g6tlc"
+                }
+            ]
+        },
+        {
+            "patent_number": "6167594",
+            "patent_title": "Shifting device for establishing contact between a flat bar and a cleaner in a carding machine",
+            "patent_year": "2001",
+            "patent_date": "2001-01-02",
+            "patent_type": "utility",
+            "inventors": [
+                {
+                    "inventor_id": "6167594-1",
+                    "inventor_country": "DE",
+                    "inventor_first_name": "Thomas",
+                    "inventor_last_name": "Steinert",
+                    "inventor_key_id": "1749211"
+                }
+            ],
+            "assignees": [
+                {
+                    "assignee_lastknown_country": "DE",
+                    "assignee_key_id": "395810"
+                }
+            ],
+            "IPCs": [
+                {
+                    "ipc_section": "D"
+                }
+            ],
+            "examiners": [
+                {
+                    "examiner_first_name": "Michael A.",
+                    "examiner_last_name": "Neas",
+                    "examiner_role": "primary",
+                    "examiner_id": "5dxz6pa7amoc43o4yuph59rs0"
+                },
+                {
+                    "examiner_first_name": "Gary L.",
+                    "examiner_last_name": "Welch",
+                    "examiner_role": "assistant",
+                    "examiner_id": "o4f7bn5d2jlfgoavx6d1jupru"
+                }
+            ]
+        },
+        {
+            "patent_number": "6167595",
+            "patent_title": "Method and device for automatically replacing the lap, preparing and joining its edges and restarting it in a combing machine",
+            "patent_year": "2001",
+            "patent_date": "2001-01-02",
+            "patent_type": "utility",
+            "inventors": [
+                {
+                    "inventor_id": "5321054-1",
+                    "inventor_country": "IT",
+                    "inventor_first_name": "Giovanni Battista",
+                    "inventor_last_name": "Pasini",
+                    "inventor_key_id": "1227883"
+                },
+                {
+                    "inventor_id": "5996183-1",
+                    "inventor_country": "IT",
+                    "inventor_first_name": "Girolamo",
+                    "inventor_last_name": "Prandini",
+                    "inventor_key_id": "1649719"
+                }
+            ],
+            "assignees": [
+                {
+                    "assignee_lastknown_country": "IT",
+                    "assignee_key_id": "64389"
+                }
+            ],
+            "IPCs": [
+                {
+                    "ipc_section": "D"
+                }
+            ],
+            "examiners": [
+                {
+                    "examiner_first_name": "Gary L.",
+                    "examiner_last_name": "Welch",
+                    "examiner_role": "assistant",
+                    "examiner_id": "3d6qdvp7r69u0y93yv6ku7wyc"
+                },
+                {
+                    "examiner_first_name": "Danny",
+                    "examiner_last_name": "Worrell",
+                    "examiner_role": "primary",
+                    "examiner_id": "z823y1elumb1hwj1gvm3jqqqw"
+                }
+            ]
+        },
+        {
+            "patent_number": "6167599",
+            "patent_title": "Light reflecting tag attached to ends of a shoelace",
+            "patent_year": "2001",
+            "patent_date": "2001-01-02",
+            "patent_type": "utility",
+            "inventors": [
+                {
+                    "inventor_id": "5946779-1",
+                    "inventor_country": "TW",
+                    "inventor_first_name": "Paul",
+                    "inventor_last_name": "Chen",
+                    "inventor_key_id": "1620014"
+                }
+            ],
+            "assignees": [
+                {
+                    "assignee_lastknown_country": "TW",
+                    "assignee_key_id": "118947"
+                }
+            ],
+            "IPCs": [
+                {
+                    "ipc_section": "A"
+                }
+            ],
+            "examiners": [
+                {
+                    "examiner_first_name": "Robert J.",
+                    "examiner_last_name": "Sandy",
+                    "examiner_role": "primary",
+                    "examiner_id": "pp9774vz1zaksxyikhvo8xvc4"
+                }
+            ]
+        },
+        {
+            "patent_number": "6167602",
+            "patent_title": "Lamp removal tool",
+            "patent_year": "2001",
+            "patent_date": "2001-01-02",
+            "patent_type": "utility",
+            "inventors": [
+                {
+                    "inventor_id": "6167602-1",
+                    "inventor_country": "TW",
+                    "inventor_first_name": "Chao Sheng",
+                    "inventor_last_name": "Yang",
+                    "inventor_key_id": "1749215"
+                },
+                {
+                    "inventor_id": "6167602-2",
+                    "inventor_country": "TW",
+                    "inventor_first_name": "Jinglong",
+                    "inventor_last_name": "Yang",
+                    "inventor_key_id": "1749216"
+                }
+            ],
+            "assignees": [
+                {
+                    "assignee_lastknown_country": "TW",
+                    "assignee_key_id": "287045"
+                }
+            ],
+            "IPCs": [
+                {
+                    "ipc_section": "B"
+                }
+            ],
+            "examiners": [
+                {
+                    "examiner_first_name": "Stephen F.",
+                    "examiner_last_name": "Gerrity",
+                    "examiner_role": "primary",
+                    "examiner_id": "9h6p07lotnuyrmtyln5vql0ic"
+                },
+                {
+                    "examiner_first_name": "Rhonda E",
+                    "examiner_last_name": "Sands",
+                    "examiner_role": "assistant",
+                    "examiner_id": "japwkl0rgdr2a0a570el55rzh"
+                }
+            ]
+        },
+        {
+            "patent_number": "6167606",
+            "patent_title": "Method for tightening a screw connection by means of an impact screwdriver having a variable speed electric drive motor",
+            "patent_year": "2001",
+            "patent_date": "2001-01-02",
+            "patent_type": "utility",
+            "inventors": [
+                {
+                    "inventor_id": "4141284-1",
+                    "inventor_country": "DE",
+                    "inventor_first_name": "Peter A.",
+                    "inventor_last_name": "Wolf",
+                    "inventor_key_id": "443885"
+                },
+                {
+                    "inventor_id": "5493913-4",
+                    "inventor_country": "DE",
+                    "inventor_first_name": "Heinz",
+                    "inventor_last_name": "Veitinger",
+                    "inventor_key_id": "1340208"
+                },
+                {
+                    "inventor_id": "6167606-1",
+                    "inventor_country": "DE",
+                    "inventor_first_name": "Gerold P.",
+                    "inventor_last_name": "Mueller",
+                    "inventor_key_id": "1749218"
+                }
+            ],
+            "assignees": [
+                {
+                    "assignee_lastknown_country": "DE",
+                    "assignee_key_id": "289299"
+                }
+            ],
+            "IPCs": [
+                {
+                    "ipc_section": "B"
+                }
+            ],
+            "examiners": [
+                {
+                    "examiner_first_name": "David P.",
+                    "examiner_last_name": "Bryant",
+                    "examiner_role": "primary",
+                    "examiner_id": "9t1ysuw07nat8nmkb1g65f9mn"
+                }
+            ]
+        },
+        {
+            "patent_number": "6167607",
+            "patent_title": "Vision target based assembly",
+            "patent_year": "2001",
+            "patent_date": "2001-01-02",
+            "patent_type": "utility",
+            "inventors": [
+                {
+                    "inventor_id": "3994584-1",
+                    "inventor_country": "CA",
+                    "inventor_first_name": "Timothy R.",
+                    "inventor_last_name": "Pryor",
+                    "inventor_key_id": "317668"
+                }
+            ],
+            "assignees": [
+                {
+                    "assignee_lastknown_country": "CA",
+                    "assignee_key_id": "314177"
+                }
+            ],
+            "IPCs": [
+                {
+                    "ipc_section": "B"
+                }
+            ],
+            "examiners": [
+                {
+                    "examiner_first_name": "David P.",
+                    "examiner_last_name": "Bryant",
+                    "examiner_role": "primary",
+                    "examiner_id": "w6nkuo9digv5woa0waj0p9hn6"
+                }
+            ]
+        },
+        {
+            "patent_number": "6167610",
+            "patent_title": "Method of making a rotary motor",
+            "patent_year": "2001",
+            "patent_date": "2001-01-02",
+            "patent_type": "utility",
+            "inventors": [
+                {
+                    "inventor_id": "3949242-2",
+                    "inventor_country": "JP",
+                    "inventor_first_name": "Akira",
+                    "inventor_last_name": "Hashimoto",
+                    "inventor_key_id": "264946"
+                },
+                {
+                    "inventor_id": "3971837-1",
+                    "inventor_country": "JP",
+                    "inventor_first_name": "Tadashi",
+                    "inventor_last_name": "Hasegawa",
+                    "inventor_key_id": "293048"
+                },
+                {
+                    "inventor_id": "4014770-3",
+                    "inventor_country": "JP",
+                    "inventor_first_name": "Hiroshi",
+                    "inventor_last_name": "Miyazaki",
+                    "inventor_key_id": "337500"
+                },
+                {
+                    "inventor_id": "4529052-3",
+                    "inventor_country": "JP",
+                    "inventor_first_name": "Kenichi",
+                    "inventor_last_name": "Azuma",
+                    "inventor_key_id": "705764"
+                },
+                {
+                    "inventor_id": "4586097-2",
+                    "inventor_country": "JP",
+                    "inventor_first_name": "Junji",
+                    "inventor_last_name": "Kawada",
+                    "inventor_key_id": "743132"
+                },
+                {
+                    "inventor_id": "4835287-2",
+                    "inventor_country": "JP",
+                    "inventor_first_name": "Masaru",
+                    "inventor_last_name": "Matsumoto",
+                    "inventor_key_id": "909751"
+                },
+                {
+                    "inventor_id": "5256856-3",
+                    "inventor_country": "JP",
+                    "inventor_first_name": "Yuji",
+                    "inventor_last_name": "Nakahara",
+                    "inventor_key_id": "1186490"
+                },
+                {
+                    "inventor_id": "5859486-4",
+                    "inventor_country": "JP",
+                    "inventor_first_name": "Youichi",
+                    "inventor_last_name": "Fujita",
+                    "inventor_key_id": "1567973"
+                },
+                {
+                    "inventor_id": "5859486-5",
+                    "inventor_country": "JP",
+                    "inventor_first_name": "Satoru",
+                    "inventor_last_name": "Akutsu",
+                    "inventor_key_id": "1567974"
+                },
+                {
+                    "inventor_id": "5859486-7",
+                    "inventor_country": "JP",
+                    "inventor_first_name": "Yasunori",
+                    "inventor_last_name": "Takai",
+                    "inventor_key_id": "1567975"
+                }
+            ],
+            "assignees": [
+                {
+                    "assignee_lastknown_country": "JP",
+                    "assignee_key_id": "215422"
+                }
+            ],
+            "IPCs": [
+                {
+                    "ipc_section": "H"
+                }
+            ],
+            "examiners": [
+                {
+                    "examiner_first_name": "Carl E.",
+                    "examiner_last_name": "Hall",
+                    "examiner_role": "primary",
+                    "examiner_id": "984n1kfm01zy7665idvxnsfo7"
+                }
+            ]
+        },
+        {
+            "patent_number": "6167611",
+            "patent_title": "Process for producing a vertical magnetic head",
+            "patent_year": "2001",
+            "patent_date": "2001-01-02",
+            "patent_type": "utility",
+            "inventors": [
+                {
+                    "inventor_id": "4671885-1",
+                    "inventor_country": "FR",
+                    "inventor_first_name": "Pierre",
+                    "inventor_last_name": "Gaud",
+                    "inventor_key_id": "800201"
+                },
+                {
+                    "inventor_id": "4720814-2",
+                    "inventor_country": "FR",
+                    "inventor_first_name": "Christine",
+                    "inventor_last_name": "Louis",
+                    "inventor_key_id": "832566"
+                },
+                {
+                    "inventor_id": "4931137-1",
+                    "inventor_country": "FR",
+                    "inventor_first_name": "Henri",
+                    "inventor_last_name": "Sibuet",
+                    "inventor_key_id": "974412"
+                },
+                {
+                    "inventor_id": "5883765-4",
+                    "inventor_country": "FR",
+                    "inventor_first_name": "Nathalie",
+                    "inventor_last_name": "Vallet",
+                    "inventor_key_id": "1582579"
+                }
+            ],
+            "assignees": [
+                {
+                    "assignee_lastknown_country": "FR",
+                    "assignee_key_id": "171453"
+                }
+            ],
+            "IPCs": [
+                {
+                    "ipc_section": "G"
+                }
+            ],
+            "examiners": [
+                {
+                    "examiner_first_name": "A. Dexter",
+                    "examiner_last_name": "Tugbang",
+                    "examiner_role": "assistant",
+                    "examiner_id": "cvf3cefer2039cg6y2lz7oip4"
+                },
+                {
+                    "examiner_first_name": "Lee",
+                    "examiner_last_name": "Young",
+                    "examiner_role": "primary",
+                    "examiner_id": "ha1s0coi9ujk8d7elywm78neu"
+                }
+            ]
+        },
+        {
+            "patent_number": "6167616",
+            "patent_title": "Connecting method of electric wire and terminal",
+            "patent_year": "2001",
+            "patent_date": "2001-01-02",
+            "patent_type": "utility",
+            "inventors": [
+                {
+                    "inventor_id": "5401179-1",
+                    "inventor_country": "JP",
+                    "inventor_first_name": "Akira",
+                    "inventor_last_name": "Shinchi",
+                    "inventor_key_id": "1279343"
+                }
+            ],
+            "assignees": [
+                {
+                    "assignee_lastknown_country": "JP",
+                    "assignee_key_id": "367376"
+                }
+            ],
+            "IPCs": [
+                {
+                    "ipc_section": "H"
+                }
+            ],
+            "examiners": [
+                {
+                    "examiner_first_name": "Carl J.",
+                    "examiner_last_name": "Arbes",
+                    "examiner_role": "primary",
+                    "examiner_id": "t0776anp661iiwq8zeajwl3v3"
+                }
+            ]
+        },
+        {
+            "patent_number": "6167622",
+            "patent_title": "Exhaust manifold attachment apparatus and method for fabricating same",
+            "patent_year": "2001",
+            "patent_date": "2001-01-02",
+            "patent_type": "utility",
+            "inventors": [
+                {
+                    "inventor_id": "5944363-1",
+                    "inventor_country": "US",
+                    "inventor_first_name": "Scott C.",
+                    "inventor_last_name": "Cwik",
+                    "inventor_key_id": "1618618"
+                }
+            ],
+            "assignees": [
+                {
+                    "assignee_lastknown_country": "CH",
+                    "assignee_key_id": "392902"
+                }
+            ],
+            "IPCs": [
+                {
+                    "ipc_section": "B"
+                }
+            ],
+            "examiners": [
+                {
+                    "examiner_first_name": "Trinh T.",
+                    "examiner_last_name": "Nguyen",
+                    "examiner_role": "assistant",
+                    "examiner_id": "7u5bc7abu3lzjy1id3f0ls0kw"
+                },
+                {
+                    "examiner_first_name": "I",
+                    "examiner_last_name": "Cuda",
+                    "examiner_role": "primary",
+                    "examiner_id": "c9hq66en5si03ro5pwo2jym1l"
+                }
+            ]
+        },
+        {
+            "patent_number": "6167628",
+            "patent_title": "Carpenter's gauge",
+            "patent_year": "2001",
+            "patent_date": "2001-01-02",
+            "patent_type": "utility",
+            "inventors": [
+                {
+                    "inventor_id": "5890524-2",
+                    "inventor_country": "CA",
+                    "inventor_first_name": "Steve K.",
+                    "inventor_last_name": "Jones",
+                    "inventor_key_id": "1586550"
+                },
+                {
+                    "inventor_id": "6167628-2",
+                    "inventor_country": "CA",
+                    "inventor_first_name": "Mark",
+                    "inventor_last_name": "Summers",
+                    "inventor_key_id": "1749228"
+                }
+            ],
+            "assignees": [
+                {
+                    "assignee_lastknown_country": "CA",
+                    "assignee_key_id": "275960"
+                }
+            ],
+            "IPCs": [
+                {
+                    "ipc_section": "B"
+                }
+            ],
+            "examiners": [
+                {
+                    "examiner_first_name": "Diego",
+                    "examiner_last_name": "Gutierrez",
+                    "examiner_role": "primary",
+                    "examiner_id": "epo4asdmtglwisv28efp6zkgm"
+                },
+                {
+                    "examiner_first_name": "Yaritza",
+                    "examiner_last_name": "Guadalupe",
+                    "examiner_role": "assistant",
+                    "examiner_id": "kqui7wmsklblmo5aylpt74eaj"
+                }
+            ]
+        },
+        {
+            "patent_number": "6167629",
+            "patent_title": "Electronic level and a leveling rod for use in combination with the same",
+            "patent_year": "2001",
+            "patent_date": "2001-01-02",
+            "patent_type": "utility",
+            "inventors": [
+                {
+                    "inventor_id": "4078525-1",
+                    "inventor_country": "JP",
+                    "inventor_first_name": "Minoru",
+                    "inventor_last_name": "Chiba",
+                    "inventor_key_id": "393910"
+                }
+            ],
+            "assignees": [
+                {
+                    "assignee_lastknown_country": "JP",
+                    "assignee_key_id": "370809"
+                }
+            ],
+            "IPCs": [
+                {
+                    "ipc_section": "G"
+                }
+            ],
+            "examiners": [
+                {
+                    "examiner_first_name": "Randy W.",
+                    "examiner_last_name": "Gibson",
+                    "examiner_role": "primary",
+                    "examiner_id": "i36zmgrjaw42y61w1m8kghjhy"
+                }
+            ]
+        },
+        {
+            "patent_number": "6167634",
+            "patent_title": "Measurement and compensation system for thermal errors in machine tools",
+            "patent_year": "2001",
+            "patent_date": "2001-01-02",
+            "patent_type": "utility",
+            "inventors": [
+                {
+                    "inventor_id": "5841668-1",
+                    "inventor_country": "KR",
+                    "inventor_first_name": "Heui Jae",
+                    "inventor_last_name": "Pahk",
+                    "inventor_key_id": "1557122"
+                },
+                {
+                    "inventor_id": "6167634-2",
+                    "inventor_country": "KR",
+                    "inventor_first_name": "Suk Won",
+                    "inventor_last_name": "Lee",
+                    "inventor_key_id": "1749232"
+                }
+            ],
+            "assignees": [
+                {
+                    "assignee_lastknown_country": "KR",
+                    "assignee_key_id": "194321"
+                }
+            ],
+            "IPCs": [
+                {
+                    "ipc_section": "G"
+                }
+            ],
+            "examiners": [
+                {
+                    "examiner_first_name": "Maria",
+                    "examiner_last_name": "Fernandez",
+                    "examiner_role": "assistant",
+                    "examiner_id": "4t0fsthk1lhr9og6xyr4egfw2"
+                },
+                {
+                    "examiner_first_name": "Diego",
+                    "examiner_last_name": "Gutierrez",
+                    "examiner_role": "primary",
+                    "examiner_id": "biu0kykevt83a7nzlm06sylrh"
+                }
+            ]
+        },
+        {
+            "patent_number": "6167635",
+            "patent_title": "Pushing suspending device of a measuring tape",
+            "patent_year": "2001",
+            "patent_date": "2001-01-02",
+            "patent_type": "utility",
+            "inventors": [
+                {
+                    "inventor_id": "D320570-1",
+                    "inventor_country": "TW",
+                    "inventor_first_name": "Henry",
+                    "inventor_last_name": "Lin",
+                    "inventor_key_id": "3655993"
+                }
+            ],
+            "assignees": [
+                {
+                    "assignee_lastknown_country": "TW",
+                    "assignee_key_id": "107022"
+                }
+            ],
+            "IPCs": [
+                {
+                    "ipc_section": "G"
+                }
+            ],
+            "examiners": [
+                {
+                    "examiner_first_name": "Christopher W.",
+                    "examiner_last_name": "Fulton",
+                    "examiner_role": "primary",
+                    "examiner_id": "2dkjtlho3ymixpm2ojcjvmn17"
+                }
+            ]
+        },
+        {
+            "patent_number": "6167636",
+            "patent_title": "Process for thermally utilizing spent grains",
+            "patent_year": "2001",
+            "patent_date": "2001-01-02",
+            "patent_type": "utility",
+            "inventors": [
+                {
+                    "inventor_id": "5009397-3",
+                    "inventor_country": "AT",
+                    "inventor_first_name": "Leopold",
+                    "inventor_last_name": "Kepplinger",
+                    "inventor_key_id": "1026399"
+                },
+                {
+                    "inventor_id": "6167636-2",
+                    "inventor_country": "AT",
+                    "inventor_first_name": "Dieter",
+                    "inventor_last_name": "Pelz",
+                    "inventor_key_id": "1749233"
+                },
+                {
+                    "inventor_id": "6167636-3",
+                    "inventor_country": "AT",
+                    "inventor_first_name": "Gerald",
+                    "inventor_last_name": "Zanker",
+                    "inventor_key_id": "1749234"
+                }
+            ],
+            "assignees": [
+                {
+                    "assignee_lastknown_country": "AT",
+                    "assignee_key_id": "286652"
+                }
+            ],
+            "IPCs": [
+                {
+                    "ipc_section": "F"
+                }
+            ],
+            "examiners": [
+                {
+                    "examiner_first_name": "Stephen",
+                    "examiner_last_name": "Gravini",
+                    "examiner_role": "primary",
+                    "examiner_id": "bcgoo4mso3yge4d9le09ixnzf"
+                }
+            ]
+        },
+        {
+            "patent_number": "6167637",
+            "patent_title": "Dehydrating method and hydroextractor",
+            "patent_year": "2001",
+            "patent_date": "2001-01-02",
+            "patent_type": "utility",
+            "inventors": [
+                {
+                    "inventor_id": "3933533-3",
+                    "inventor_country": "JP",
+                    "inventor_first_name": "Kazuo",
+                    "inventor_last_name": "Kobayashi",
+                    "inventor_key_id": "242485"
+                },
+                {
+                    "inventor_id": "4206056-1",
+                    "inventor_country": "JP",
+                    "inventor_first_name": "Hyosuke",
+                    "inventor_last_name": "Nagase",
+                    "inventor_key_id": "491881"
+                },
+                {
+                    "inventor_id": "4517087-4",
+                    "inventor_country": "JP",
+                    "inventor_first_name": "Norio",
+                    "inventor_last_name": "Masumoto",
+                    "inventor_key_id": "698081"
+                },
+                {
+                    "inventor_id": "6167637-1",
+                    "inventor_country": "JP",
+                    "inventor_first_name": "Yuuji",
+                    "inventor_last_name": "Nagase",
+                    "inventor_key_id": "1749235"
+                }
+            ],
+            "assignees": [
+                {
+                    "assignee_lastknown_country": "JP",
+                    "assignee_key_id": "105911"
+                },
+                {
+                    "assignee_lastknown_country": "JP",
+                    "assignee_key_id": "480882"
+                }
+            ],
+            "IPCs": [
+                {
+                    "ipc_section": "F"
+                }
+            ],
+            "examiners": [
+                {
+                    "examiner_first_name": "Stephen",
+                    "examiner_last_name": "Gravini",
+                    "examiner_role": "primary",
+                    "examiner_id": "8gbn8exgrhr43mpmkcyuf840l"
+                }
+            ]
+        },
+        {
+            "patent_number": "6167640",
+            "patent_title": "Athletic shoe, in particular soccer shoe",
+            "patent_year": "2001",
+            "patent_date": "2001-01-02",
+            "patent_type": "utility",
+            "inventors": [
+                {
+                    "inventor_id": "4252910-1",
+                    "inventor_country": "DE",
+                    "inventor_first_name": "Philipp",
+                    "inventor_last_name": "Schaefer",
+                    "inventor_key_id": "525181"
+                }
+            ],
+            "assignees": [
+                {
+                    "assignee_lastknown_country": "NL",
+                    "assignee_key_id": "114258"
+                }
+            ],
+            "IPCs": [
+                {
+                    "ipc_section": "A"
+                }
+            ],
+            "examiners": [
+                {
+                    "examiner_first_name": "M. D.",
+                    "examiner_last_name": "Patterson",
+                    "examiner_role": "primary",
+                    "examiner_id": "sn3mk4tp310qx33rs4gljhfno"
+                }
+            ]
+        },
+        {
+            "patent_number": "6167643",
+            "patent_title": "Iron with non-drip device",
+            "patent_year": "2001",
+            "patent_date": "2001-01-02",
+            "patent_type": "utility",
+            "inventors": [
+                {
+                    "inventor_id": "5138778-1",
+                    "inventor_country": "FR",
+                    "inventor_first_name": "Jean-Louis",
+                    "inventor_last_name": "Brandolini",
+                    "inventor_key_id": "1110184"
+                },
+                {
+                    "inventor_id": "6167643-1",
+                    "inventor_country": "FR",
+                    "inventor_first_name": "Phillippe",
+                    "inventor_last_name": "Dodier",
+                    "inventor_key_id": "1749238"
+                }
+            ],
+            "assignees": [
+                {
+                    "assignee_lastknown_country": "FR",
+                    "assignee_key_id": "35866"
+                }
+            ],
+            "IPCs": [
+                {
+                    "ipc_section": "D"
+                }
+            ],
+            "examiners": [
+                {
+                    "examiner_first_name": "Ismael",
+                    "examiner_last_name": "Izaguirre",
+                    "examiner_role": "primary",
+                    "examiner_id": "zbi9gkw8a20hzevo7ogrf2to7"
+                }
+            ]
+        },
+        {
+            "patent_number": "6167647",
+            "patent_title": "Double-directional rotary water ball structure",
+            "patent_year": "2001",
+            "patent_date": "2001-01-02",
+            "patent_type": "utility",
+            "inventors": [
+                {
+                    "inventor_id": "D401887-1",
+                    "inventor_country": "TW",
+                    "inventor_first_name": "Shin-Ya",
+                    "inventor_last_name": "Yang",
+                    "inventor_key_id": "3698608"
+                }
+            ],
+            "assignees": [
+                {
+                    "assignee_lastknown_country": "TW",
+                    "assignee_key_id": "294415"
+                }
+            ],
+            "IPCs": [
+                {
+                    "ipc_section": "G"
+                }
+            ],
+            "examiners": [
+                {
+                    "examiner_first_name": "Cassandra",
+                    "examiner_last_name": "Davis",
+                    "examiner_role": "primary",
+                    "examiner_id": "af7aonwgrqzuq7nw3cnhora75"
+                }
+            ]
+        },
+        {
+            "patent_number": "6167661",
+            "patent_title": "Window, in particular for mounting in an inclined roof surface",
+            "patent_year": "2001",
+            "patent_date": "2001-01-02",
+            "patent_type": "utility",
+            "inventors": [
+                {
+                    "inventor_id": "6167661-1",
+                    "inventor_country": "DK",
+                    "inventor_first_name": "Jan Vilhelm",
+                    "inventor_last_name": "Christensen",
+                    "inventor_key_id": "1749249"
+                }
+            ],
+            "assignees": [
+                {
+                    "assignee_lastknown_country": "DK",
+                    "assignee_key_id": "24643"
+                }
+            ],
+            "IPCs": [
+                {
+                    "ipc_section": "E"
+                }
+            ],
+            "examiners": [
+                {
+                    "examiner_first_name": "Richard",
+                    "examiner_last_name": "Chilcot",
+                    "examiner_role": "primary",
+                    "examiner_id": "0o2f54r27vz0cyskjxhssdryz"
+                },
+                {
+                    "examiner_first_name": "Patrick J.",
+                    "examiner_last_name": "Chavez",
+                    "examiner_role": "assistant",
+                    "examiner_id": "twp4y2g2qi3dn8l8acfnqopvz"
+                }
+            ]
+        },
+        {
+            "patent_number": "6334227",
+            "patent_title": "Seat",
+            "patent_year": "2002",
+            "patent_date": "2002-01-01",
+            "patent_type": "utility",
+            "inventors": [
+                {
+                    "inventor_id": "D428716-1",
+                    "inventor_country": "FR",
+                    "inventor_first_name": "Sophie",
+                    "inventor_last_name": "Larger",
+                    "inventor_key_id": "3711200"
+                }
+            ],
+            "assignees": [
+                {
+                    "assignee_lastknown_country": "FR",
+                    "assignee_key_id": "398720"
+                }
+            ],
+            "IPCs": [
+                {
+                    "ipc_section": "A"
+                }
+            ],
+            "examiners": [
+                {
+                    "examiner_first_name": "Lynne H.",
+                    "examiner_last_name": "Browne",
+                    "examiner_role": "primary",
+                    "examiner_id": "v3n1xxrrdlcut0e0bxphrsfjd"
+                },
+                {
+                    "examiner_first_name": "Fredrick",
+                    "examiner_last_name": "Conley",
+                    "examiner_role": "assistant",
+                    "examiner_id": "wkgpnn7rqre8397g61wrcbxhy"
+                }
+            ]
+        },
+        {
+            "patent_number": "6334234",
+            "patent_title": "Cleaner head for a vacuum cleaner",
+            "patent_year": "2002",
+            "patent_date": "2002-01-01",
+            "patent_type": "utility",
+            "inventors": [
+                {
+                    "inventor_id": "4759778-1",
+                    "inventor_country": "CA",
+                    "inventor_first_name": "Wayne Ernest",
+                    "inventor_last_name": "Conrad",
+                    "inventor_key_id": "858827"
+                },
+                {
+                    "inventor_id": "5630990-5",
+                    "inventor_country": "CA",
+                    "inventor_first_name": "Helmut Gerhard",
+                    "inventor_last_name": "Conrad",
+                    "inventor_key_id": "1426518"
+                }
+            ],
+            "assignees": [
+                {
+                    "assignee_lastknown_country": "CA",
+                    "assignee_key_id": "67381"
+                }
+            ],
+            "IPCs": [
+                {
+                    "ipc_section": "A"
+                }
+            ],
+            "examiners": [
+                {
+                    "examiner_first_name": "Robert J.",
+                    "examiner_last_name": "Warden, Sr.",
+                    "examiner_role": "primary",
+                    "examiner_id": "i9u0r2ef7i731sukesqpcf4u2"
+                },
+                {
+                    "examiner_first_name": "Theresa T.",
+                    "examiner_last_name": "Snider",
+                    "examiner_role": "assistant",
+                    "examiner_id": "z7cpxuiwmf2oln800znpsl37b"
+                }
+            ]
+        },
+        {
+            "patent_number": "6334235",
+            "patent_title": "Self-driving, self-locking and damping hinge strap, and a hinge fitted with such straps",
+            "patent_year": "2002",
+            "patent_date": "2002-01-01",
+            "patent_type": "utility",
+            "inventors": [
+                {
+                    "inventor_id": "6334235-1",
+                    "inventor_country": "FR",
+                    "inventor_first_name": "Bernard",
+                    "inventor_last_name": "Duperray",
+                    "inventor_key_id": "1842136"
+                },
+                {
+                    "inventor_id": "6334235-2",
+                    "inventor_country": "FR",
+                    "inventor_first_name": "Alain",
+                    "inventor_last_name": "Donzier",
+                    "inventor_key_id": "1842137"
+                },
+                {
+                    "inventor_id": "6334235-3",
+                    "inventor_country": "FR",
+                    "inventor_first_name": "Jacques",
+                    "inventor_last_name": "Sicre",
+                    "inventor_key_id": "1842138"
+                }
+            ],
+            "assignees": [
+                {
+                    "assignee_lastknown_country": "FR",
+                    "assignee_key_id": "130125"
+                },
+                {
+                    "assignee_lastknown_country": "FR",
+                    "assignee_key_id": "389760"
+                }
+            ],
+            "IPCs": [
+                {
+                    "ipc_section": "E"
+                }
+            ],
+            "examiners": [
+                {
+                    "examiner_first_name": "Mark",
+                    "examiner_last_name": "Williams",
+                    "examiner_role": "assistant",
+                    "examiner_id": "2ofmdaozbo90dygyip36xam9w"
+                },
+                {
+                    "examiner_first_name": "Anthony",
+                    "examiner_last_name": "Knight",
+                    "examiner_role": "primary",
+                    "examiner_id": "astck91i8nr58e6easylyvi53"
+                }
+            ]
+        },
+        {
+            "patent_number": "6334236",
+            "patent_title": "Vehicle door prop clip for a vehicle hinge with split pins",
+            "patent_year": "2002",
+            "patent_date": "2002-01-01",
+            "patent_type": "utility",
+            "inventors": [
+                {
+                    "inventor_id": "5924170-2",
+                    "inventor_country": "CA",
+                    "inventor_first_name": "Eric V.",
+                    "inventor_last_name": "Kalliomaki",
+                    "inventor_key_id": "1606623"
+                }
+            ],
+            "assignees": [
+                {
+                    "assignee_lastknown_country": "CA",
+                    "assignee_key_id": "179537"
+                }
+            ],
+            "IPCs": [
+                {
+                    "ipc_section": "E"
+                }
+            ],
+            "examiners": [
+                {
+                    "examiner_first_name": "John B.",
+                    "examiner_last_name": "Walsh",
+                    "examiner_role": "assistant",
+                    "examiner_id": "25klphjt8eswf3tz4gp9gmwct"
+                },
+                {
+                    "examiner_first_name": "Lynne H.",
+                    "examiner_last_name": "Browne",
+                    "examiner_role": "primary",
+                    "examiner_id": "w1115nul45ffxm9z2de2mqecm"
+                }
+            ]
+        },
+        {
+            "patent_number": "6334238",
+            "patent_title": "Method of operating a draw unit of a spinning preparation machine",
+            "patent_year": "2002",
+            "patent_date": "2002-01-01",
+            "patent_type": "utility",
+            "inventors": [
+                {
+                    "inventor_id": "5544390-1",
+                    "inventor_country": "DE",
+                    "inventor_first_name": "Reinhard",
+                    "inventor_last_name": "Hartung",
+                    "inventor_key_id": "1372855"
+                }
+            ],
+            "assignees": [
+                {
+                    "assignee_lastknown_country": "DE",
+                    "assignee_key_id": "235388"
+                }
+            ],
+            "IPCs": [
+                {
+                    "ipc_section": "D"
+                }
+            ],
+            "examiners": [
+                {
+                    "examiner_first_name": "Gary L.",
+                    "examiner_last_name": "Welch",
+                    "examiner_role": "assistant",
+                    "examiner_id": "wiovpup59kwhzjwvrza4ylnds"
+                },
+                {
+                    "examiner_first_name": "John J.",
+                    "examiner_last_name": "Calvert",
+                    "examiner_role": "primary",
+                    "examiner_id": "ynjcm1vwz77ig5g4nfde7kaij"
+                }
+            ]
+        },
+        {
+            "patent_number": "6334243",
+            "patent_title": "Method of and apparatus for manipulating tows of filter material for tobacco smoke",
+            "patent_year": "2002",
+            "patent_date": "2002-01-01",
+            "patent_type": "utility",
+            "inventors": [
+                {
+                    "inventor_id": "6334243-1",
+                    "inventor_country": "DE",
+                    "inventor_first_name": "Stephan",
+                    "inventor_last_name": "Wolff",
+                    "inventor_key_id": "1842143"
+                }
+            ],
+            "assignees": [
+                {
+                    "assignee_lastknown_country": "DE",
+                    "assignee_key_id": "320108"
+                }
+            ],
+            "IPCs": [
+                {
+                    "ipc_section": "D"
+                }
+            ],
+            "examiners": [
+                {
+                    "examiner_first_name": "Danny",
+                    "examiner_last_name": "Worrell",
+                    "examiner_role": "primary",
+                    "examiner_id": "k8meqhtpsvyy7z3zd9u0y1ged"
+                }
+            ]
+        },
+        {
+            "patent_number": "6334244",
+            "patent_title": "Method for producing ink-jet recording head",
+            "patent_year": "2002",
+            "patent_date": "2002-01-01",
+            "patent_type": "utility",
+            "inventors": [
+                {
+                    "inventor_id": "6019458-4",
+                    "inventor_country": "JP",
+                    "inventor_first_name": "Tsutomu",
+                    "inventor_last_name": "Hashizume",
+                    "inventor_key_id": "1663686"
+                }
+            ],
+            "assignees": [
+                {
+                    "assignee_lastknown_country": "JP",
+                    "assignee_key_id": "419214"
+                }
+            ],
+            "IPCs": [
+                {
+                    "ipc_section": "H"
+                }
+            ],
+            "examiners": [
+                {
+                    "examiner_first_name": "A. Dexter",
+                    "examiner_last_name": "Tugbang",
+                    "examiner_role": "assistant",
+                    "examiner_id": "j1qxpuqgfj2wb3vfa1yevuekh"
+                },
+                {
+                    "examiner_first_name": "Lee",
+                    "examiner_last_name": "Young",
+                    "examiner_role": "primary",
+                    "examiner_id": "lii1gbthoo582jfk931ouk9zn"
+                }
+            ]
+        },
+        {
+            "patent_number": "6334245",
+            "patent_title": "Method of making gas generator for air bag and air bag system",
+            "patent_year": "2002",
+            "patent_date": "2002-01-01",
+            "patent_type": "utility",
+            "inventors": [
+                {
+                    "inventor_id": "5772242-2",
+                    "inventor_country": "JP",
+                    "inventor_first_name": "Nobuyuki",
+                    "inventor_last_name": "Katsuda",
+                    "inventor_key_id": "1514977"
+                },
+                {
+                    "inventor_id": "6053531-2",
+                    "inventor_country": "JP",
+                    "inventor_first_name": "Shogo",
+                    "inventor_last_name": "Tomiyama",
+                    "inventor_key_id": "1683657"
+                }
+            ],
+            "assignees": [
+                {
+                    "assignee_lastknown_country": "JP",
+                    "assignee_key_id": "230026"
+                }
+            ],
+            "IPCs": [
+                {
+                    "ipc_section": "B"
+                }
+            ],
+            "examiners": [
+                {
+                    "examiner_first_name": "I",
+                    "examiner_last_name": "Cuda Rosenbaum",
+                    "examiner_role": "primary",
+                    "examiner_id": "x5q0o3slcb03r4no7cyqwaz7d"
+                }
+            ]
+        },
+        {
+            "patent_number": "6334246",
+            "patent_title": "Method for fixing an additional bottom to the external surface of the bottom of a container",
+            "patent_year": "2002",
+            "patent_date": "2002-01-01",
+            "patent_type": "utility",
+            "inventors": [
+                {
+                    "inventor_id": "6082166-1",
+                    "inventor_country": "IT",
+                    "inventor_first_name": "Visino",
+                    "inventor_last_name": "Marin",
+                    "inventor_key_id": "1700127"
+                }
+            ],
+            "assignees": [
+                {
+                    "assignee_lastknown_country": "IT",
+                    "assignee_key_id": "177882"
+                }
+            ],
+            "IPCs": [
+                {
+                    "ipc_section": "B"
+                }
+            ],
+            "examiners": [
+                {
+                    "examiner_first_name": "Marc",
+                    "examiner_last_name": "Jimenez",
+                    "examiner_role": "assistant",
+                    "examiner_id": "mptj282lrsjmn9rctrlkg46g5"
+                },
+                {
+                    "examiner_first_name": "S. Thomas",
+                    "examiner_last_name": "Hughes",
+                    "examiner_role": "primary",
+                    "examiner_id": "rncqjxx8r29cv0lfxc607l0lq"
+                }
+            ]
+        },
+        {
+            "patent_number": "6334250",
+            "patent_title": "Method of fixing a flexible flat cable to a cable holder",
+            "patent_year": "2002",
+            "patent_date": "2002-01-01",
+            "patent_type": "utility",
+            "inventors": [
+                {
+                    "inventor_id": "4721251-3",
+                    "inventor_country": "JP",
+                    "inventor_first_name": "Osamu",
+                    "inventor_last_name": "Maeda",
+                    "inventor_key_id": "832882"
+                },
+                {
+                    "inventor_id": "5335877-1",
+                    "inventor_country": "JP",
+                    "inventor_first_name": "Kunio",
+                    "inventor_last_name": "Sawai",
+                    "inventor_key_id": "1237462"
+                }
+            ],
+            "assignees": [
+                {
+                    "assignee_lastknown_country": "JP",
+                    "assignee_key_id": "172532"
+                }
+            ],
+            "IPCs": [
+                {
+                    "ipc_section": "H"
+                }
+            ],
+            "examiners": [
+                {
+                    "examiner_first_name": "Rick Kiltae",
+                    "examiner_last_name": "Chang",
+                    "examiner_role": "assistant",
+                    "examiner_id": "mv64m60t2kpgymdnadt845xlj"
+                },
+                {
+                    "examiner_first_name": "Lee",
+                    "examiner_last_name": "Young",
+                    "examiner_role": "primary",
+                    "examiner_id": "yppkh0q6bfjyuyja4t702xb7y"
+                }
+            ]
+        },
+        {
+            "patent_number": "6334251",
+            "patent_title": "Method of manufacturing a connecting structure for covered wires",
+            "patent_year": "2002",
+            "patent_date": "2002-01-01",
+            "patent_type": "utility",
+            "inventors": [
+                {
+                    "inventor_id": "5739496-2",
+                    "inventor_country": "JP",
+                    "inventor_first_name": "Tetsuro",
+                    "inventor_last_name": "Ide",
+                    "inventor_key_id": "1494713"
+                }
+            ],
+            "assignees": [
+                {
+                    "assignee_lastknown_country": "JP",
+                    "assignee_key_id": "367376"
+                }
+            ],
+            "IPCs": [
+                {
+                    "ipc_section": "H"
+                }
+            ],
+            "examiners": [
+                {
+                    "examiner_first_name": "S. Thomas",
+                    "examiner_last_name": "Hughes",
+                    "examiner_role": "primary",
+                    "examiner_id": "obm6qxymd3uorfrmop1zc5ovs"
+                },
+                {
+                    "examiner_first_name": "Rick Kiltae",
+                    "examiner_last_name": "Chang",
+                    "examiner_role": "assistant",
+                    "examiner_id": "wje87d4osdlzor8xug4zcpx9u"
+                }
+            ]
+        },
+        {
+            "patent_number": "6334252",
+            "patent_title": "Production of vehicles",
+            "patent_year": "2002",
+            "patent_date": "2002-01-01",
+            "patent_type": "utility",
+            "inventors": [
+                {
+                    "inventor_id": "4058414-1",
+                    "inventor_country": "JP",
+                    "inventor_first_name": "Takashi",
+                    "inventor_last_name": "Matsuoka",
+                    "inventor_key_id": "376937"
+                },
+                {
+                    "inventor_id": "4072988-1",
+                    "inventor_country": "JP",
+                    "inventor_first_name": "Manabu",
+                    "inventor_last_name": "Sato",
+                    "inventor_key_id": "389282"
+                },
+                {
+                    "inventor_id": "5120384-2",
+                    "inventor_country": "JP",
+                    "inventor_first_name": "Kouki",
+                    "inventor_last_name": "Sato",
+                    "inventor_key_id": "1098362"
+                },
+                {
+                    "inventor_id": "5265139-3",
+                    "inventor_country": "JP",
+                    "inventor_first_name": "Kenji",
+                    "inventor_last_name": "Kanamori",
+                    "inventor_key_id": "1191831"
+                },
+                {
+                    "inventor_id": "5281295-2",
+                    "inventor_country": "JP",
+                    "inventor_first_name": "Kouichi",
+                    "inventor_last_name": "Ohira",
+                    "inventor_key_id": "1202137"
+                },
+                {
+                    "inventor_id": "6334252-2",
+                    "inventor_country": "JP",
+                    "inventor_first_name": "Masato",
+                    "inventor_last_name": "Takiguchi",
+                    "inventor_key_id": "1842144"
+                },
+                {
+                    "inventor_id": "6334252-5",
+                    "inventor_country": "JP",
+                    "inventor_first_name": "Masami",
+                    "inventor_last_name": "Tashiro",
+                    "inventor_key_id": "1842145"
+                },
+                {
+                    "inventor_id": "6334252-7",
+                    "inventor_country": "JP",
+                    "inventor_first_name": "Takamitsu",
+                    "inventor_last_name": "Tajima",
+                    "inventor_key_id": "1842146"
+                }
+            ],
+            "assignees": [
+                {
+                    "assignee_lastknown_country": "JP",
+                    "assignee_key_id": "102726"
+                }
+            ],
+            "IPCs": [
+                {
+                    "ipc_section": "B"
+                }
+            ],
+            "examiners": [
+                {
+                    "examiner_first_name": "T.",
+                    "examiner_last_name": "Nguyen",
+                    "examiner_role": "assistant",
+                    "examiner_id": "6jloxi6xecnrdybpit6ogz04x"
+                },
+                {
+                    "examiner_first_name": "I Cuda",
+                    "examiner_last_name": "Rosenbaum",
+                    "examiner_role": "primary",
+                    "examiner_id": "qrtud2feabxqzmxf7amrpcohi"
+                }
+            ]
+        },
+        {
+            "patent_number": "6334256",
+            "patent_title": "Sharpener unit",
+            "patent_year": "2002",
+            "patent_date": "2002-01-01",
+            "patent_type": "utility",
+            "inventors": [
+                {
+                    "inventor_id": "6334256-1",
+                    "inventor_country": "DE",
+                    "inventor_first_name": "Fritz",
+                    "inventor_last_name": "Lttgens",
+                    "inventor_key_id": "1842148"
+                }
+            ],
+            "assignees": [
+                {
+                    "assignee_lastknown_country": "IE",
+                    "assignee_key_id": "118586"
+                }
+            ],
+            "IPCs": [
+                {
+                    "ipc_section": "B"
+                }
+            ],
+            "examiners": [
+                {
+                    "examiner_first_name": "Douglas D.",
+                    "examiner_last_name": "Watts",
+                    "examiner_role": "primary",
+                    "examiner_id": "tt7iodmrma2v33am9oknd783i"
+                }
+            ]
+        },
+        {
+            "patent_number": "6334257",
+            "patent_title": "Electronic angle-measuring device",
+            "patent_year": "2002",
+            "patent_date": "2002-01-01",
+            "patent_type": "utility",
+            "inventors": [
+                {
+                    "inventor_id": "6334257-1",
+                    "inventor_country": "NL",
+                    "inventor_first_name": "Arie Huibrecht",
+                    "inventor_last_name": "Den Ouden",
+                    "inventor_key_id": "1842149"
+                }
+            ],
+            "assignees": [
+                {
+                    "assignee_lastknown_country": "NL",
+                    "assignee_key_id": "402135"
+                }
+            ],
+            "IPCs": [
+                {
+                    "ipc_section": "G"
+                }
+            ],
+            "examiners": [
+                {
+                    "examiner_first_name": "Andrew H.",
+                    "examiner_last_name": "Hirshfeld",
+                    "examiner_role": "primary",
+                    "examiner_id": "q6uihurlu8aw36mg2100ur75x"
+                }
+            ]
+        },
+        {
+            "patent_number": "6334258",
+            "patent_title": "Inspection device for examining a piece of aperture graphite of an extraction electrode",
+            "patent_year": "2002",
+            "patent_date": "2002-01-01",
+            "patent_type": "utility",
+            "inventors": [
+                {
+                    "inventor_id": "5892232-3",
+                    "inventor_country": "TW",
+                    "inventor_first_name": "Hua-Jen",
+                    "inventor_last_name": "Tseng",
+                    "inventor_key_id": "1587546"
+                },
+                {
+                    "inventor_id": "6019664-3",
+                    "inventor_country": "TW",
+                    "inventor_first_name": "Chun-Chieh",
+                    "inventor_last_name": "Lee",
+                    "inventor_key_id": "1663772"
+                },
+                {
+                    "inventor_id": "6019664-4",
+                    "inventor_country": "TW",
+                    "inventor_first_name": "Dong-Tay",
+                    "inventor_last_name": "Tsai",
+                    "inventor_key_id": "1663773"
+                },
+                {
+                    "inventor_id": "6099386-4",
+                    "inventor_country": "TW",
+                    "inventor_first_name": "Yi-Hua",
+                    "inventor_last_name": "Chin",
+                    "inventor_key_id": "1710057"
+                }
+            ],
+            "assignees": [
+                {
+                    "assignee_lastknown_country": "TW",
+                    "assignee_key_id": "422752"
+                }
+            ],
+            "IPCs": [
+                {
+                    "ipc_section": "G"
+                }
+            ],
+            "examiners": [
+                {
+                    "examiner_first_name": "Yaritza",
+                    "examiner_last_name": "Guadalupe",
+                    "examiner_role": "assistant",
+                    "examiner_id": "hq55qp4kec8qqxgbxj12ceo1h"
+                },
+                {
+                    "examiner_first_name": "Diego",
+                    "examiner_last_name": "Gutierrez",
+                    "examiner_role": "primary",
+                    "examiner_id": "u9b10h7qbpohfrf5cj6pheu8j"
+                }
+            ]
+        },
+        {
+            "patent_number": "6334260",
+            "patent_title": "Strata movement indicators",
+            "patent_year": "2002",
+            "patent_date": "2002-01-01",
+            "patent_type": "utility",
+            "inventors": [
+                {
+                    "inventor_id": "5345685-1",
+                    "inventor_country": "GB",
+                    "inventor_first_name": "Alan Stuart",
+                    "inventor_last_name": "Bloor",
+                    "inventor_key_id": "1243703"
+                },
+                {
+                    "inventor_id": "6334260-2",
+                    "inventor_country": "GB",
+                    "inventor_first_name": "Paul Alan",
+                    "inventor_last_name": "Fletcher",
+                    "inventor_key_id": "1842151"
+                }
+            ],
+            "assignees": [
+                {
+                    "assignee_lastknown_country": "GB",
+                    "assignee_key_id": "396525"
+                }
+            ],
+            "IPCs": [
+                {
+                    "ipc_section": "E"
+                }
+            ],
+            "examiners": [
+                {
+                    "examiner_first_name": "Diego",
+                    "examiner_last_name": "Gutierrez",
+                    "examiner_role": "primary",
+                    "examiner_id": "jkg7pntpk7mpfkqgpjyvaerzo"
+                },
+                {
+                    "examiner_first_name": "Madeline",
+                    "examiner_last_name": "Gonzalez",
+                    "examiner_role": "assistant",
+                    "examiner_id": "s9kddpt36slqa3m8o913oxaa7"
+                }
+            ]
+        },
+        {
+            "patent_number": "6334261",
+            "patent_title": "Collapsible square",
+            "patent_year": "2002",
+            "patent_date": "2002-01-01",
+            "patent_type": "utility",
+            "inventors": [
+                {
+                    "inventor_id": "4276526-2",
+                    "inventor_country": "US",
+                    "inventor_first_name": "Robert L.",
+                    "inventor_last_name": "Owens",
+                    "inventor_key_id": "541352"
+                },
+                {
+                    "inventor_id": "6334261-1",
+                    "inventor_country": "US",
+                    "inventor_first_name": "Robert",
+                    "inventor_last_name": "Scillia",
+                    "inventor_key_id": "1842152"
+                }
+            ],
+            "assignees": [
+                {
+                    "assignee_lastknown_country": "IL",
+                    "assignee_key_id": "112542"
+                }
+            ],
+            "IPCs": [
+                {
+                    "ipc_section": "B"
+                }
+            ],
+            "examiners": [
+                {
+                    "examiner_first_name": "Christopher W.",
+                    "examiner_last_name": "Fulton",
+                    "examiner_role": "primary",
+                    "examiner_id": "2zmqv4ozg6nw2n69y825ghhyj"
+                }
+            ]
+        },
+        {
+            "patent_number": "6334264",
+            "patent_title": "Fixation method of hinge point of tailgate for automobile",
+            "patent_year": "2002",
+            "patent_date": "2002-01-01",
+            "patent_type": "utility",
+            "inventors": [
+                {
+                    "inventor_id": "6334264-1",
+                    "inventor_country": "KR",
+                    "inventor_first_name": "Joo Tae",
+                    "inventor_last_name": "Oh",
+                    "inventor_key_id": "1842155"
+                }
+            ],
+            "assignees": [
+                {
+                    "assignee_lastknown_country": "KR",
+                    "assignee_key_id": "231647"
+                }
+            ],
+            "IPCs": [
+                {
+                    "ipc_section": "G"
+                }
+            ],
+            "examiners": [
+                {
+                    "examiner_first_name": "Essama",
+                    "examiner_last_name": "Omgba",
+                    "examiner_role": "assistant",
+                    "examiner_id": "ay9ayccl5t470navj4sfbr3nj"
+                },
+                {
+                    "examiner_first_name": "S. Thomas",
+                    "examiner_last_name": "Hughes",
+                    "examiner_role": "primary",
+                    "examiner_id": "ugyxekunmzh945tpwdrazybgk"
+                }
+            ]
+        },
+        {
+            "patent_number": "6334265",
+            "patent_title": "Process for the operation of a regenerator and regenerator",
+            "patent_year": "2002",
+            "patent_date": "2002-01-01",
+            "patent_type": "utility",
+            "inventors": [
+                {
+                    "inventor_id": "3932172-3",
+                    "inventor_country": "DE",
+                    "inventor_first_name": "Hans-Georg",
+                    "inventor_last_name": "Fassbinder",
+                    "inventor_key_id": "240273"
+                },
+                {
+                    "inventor_id": "6092300-1",
+                    "inventor_country": "DE",
+                    "inventor_first_name": "Andreas",
+                    "inventor_last_name": "Emmel",
+                    "inventor_key_id": "1706017"
+                },
+                {
+                    "inventor_id": "6092300-2",
+                    "inventor_country": "DE",
+                    "inventor_first_name": "Dragan",
+                    "inventor_last_name": "Stevanovic",
+                    "inventor_key_id": "1706018"
+                }
+            ],
+            "assignees": [
+                {
+                    "assignee_lastknown_country": "DE",
+                    "assignee_key_id": "225567"
+                }
+            ],
+            "IPCs": [
+                {
+                    "ipc_section": "F"
+                }
+            ],
+            "examiners": [
+                {
+                    "examiner_first_name": "Malik N.",
+                    "examiner_last_name": "Drake",
+                    "examiner_role": "assistant",
+                    "examiner_id": "azhsfyoj469t1bjqupn9u7k56"
+                },
+                {
+                    "examiner_first_name": "Corrine",
+                    "examiner_last_name": "McDermott",
+                    "examiner_role": "primary",
+                    "examiner_id": "m9ovht008ja3wi4bo4szibi16"
+                }
+            ]
+        }
+]
+}
