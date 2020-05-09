@@ -13,6 +13,7 @@ from cassandra.cluster import Cluster
 from cassandra.query import SimpleStatement
 from cassandra.util import uuid_from_time
 import json
+import random
 KEYSPACE = "cpm"
 '''
 REATE TABLE cpm.paises (
@@ -42,22 +43,52 @@ def cassandra_insert_paises(path):
 def cassandra_insert_patentes_masivos(path):
     cluster = Cluster(['master'],protocol_version = 3)
     session = cluster.connect()
-    query = SimpleStatement(
     
-        "INSERT INTO cpm.inventores(id_inventor,nombre,alpha2,pais)values(%s,%s,%s,%s)",
-        consistency_level=ConsistencyLevel.QUORUM)
     
     with open(path) as f:
         data = json.load(f)
         data = data['patents']
+        
+        #obtengo paises..
+        paises = cassandra_get_paises()
+        
         for patente in data:
-            print("##########")
-            #return patente
-            inventores = patente['inventors']
-            for inventor in inventores:
-                nombre = inventor['inventor_first_name']+ "" + inventor['inventor_last_name']
-                pais = obtener_nombre_pais(inventor['inventor_country'])
-                session.execute(query, (inventor['inventor_id'],nombre,inventor['inventor_country'],pais))
+                 
+            #SE AGREGAN LOS Colaboradores... 
+            colaboradores = patente['examiners']
+            for colaborador in colaboradores:
+                nombre_colaborador = colaborador['examiner_first_name'] + colaborador['examiner_last_name']
+                id_colaborador = colaborador['examiner_id']
+                ids_areas = patente['IPCs']
+                nombres_area = cassandra_get_nombre_areas(ids_areas)
+                #print("Conversion de areas..jiji::: ",nombres_area)
+                #Sera que ya existe ese colaborador
+                row_count_colaborador = cassandra_get_count_colaborador(id_colaborador)
+                #print("@@@@@:: ",row_count_colaborador)
+                for r in row_count_colaborador:
+                    #print("------->::: ",r)
+                    #print("------->::: ",r.count)
+                    count = r.count
+                if count == 0:
+                    pass
+                    ##SE CREA EL NUEVO REGISTRO
+                    query_colaborador = SimpleStatement(
+                        "INSERT INTO cpm.colaboradores(id_colaborador,area,comision,fec_inicio,nombre,salario)values(%s,%s,%s,%s,%s,%s)",consistency_level=ConsistencyLevel.QUORUM)
+                    session.execute(query_colaborador, (id_colaborador,nombres_area,random.uniform(350, 1000),'2020-05-10',nombre_colaborador,random.uniform(3500, 25000.5)))
+ 
+                else:
+                    pass
+                    ## SE AGREGA A LA LISTA
+                    query_colaborador = SimpleStatement(
+                        "UPDATE cpm.colaboradores SET area = area + %s where id_colaborador = %s",consistency_level=ConsistencyLevel.QUORUM)
+                    session.execute(query_colaborador, (nombres_area,id_colaborador))
+ 
+
+
+                
+
+
+
     return "OK"
 
 def obtener_nombre_pais(id):
@@ -69,12 +100,49 @@ def obtener_nombre_pais(id):
         return row.nombre
     return "pais no encontrado alv!"
 
+def cassandra_get_nombre_areas(ids):# va a devolver un diccionario..
+    resp = {}
+    cluster = Cluster(['master'],protocol_version = 3)
+    session = cluster.connect()
+    for idd in ids:
+        valid = idd['ipc_section']
+        #print("#######::",valid)
+        row = session.execute("select descripcion from cpm.areas_investigacion where id_area= %s",[valid])
+        lista = list(row)
+        if len(lista)==0 :
+            #NO EXISTE ESA CATEGORIA??
+            print("Se detecto que no existe la categoria:: ",valid)
+        else:
+            #SI EXISTE YEIIII
+            resp[valid] = lista[0].descripcion
+    return resp
 
 def cassandra_get_paises():
     cluster = Cluster(['master'],protocol_version = 3)
     session = cluster.connect()
-    future = session.execute_async("select nombre,alpha2 from cpm.paises")
-    return future.result()
+    future = session.execute("select nombre,alpha2 from cpm.paises")
+    return future
+def cassandra_get_inventores():
+    cluster = Cluster(['master'],protocol_version = 3)
+    session = cluster.connect()
+    future = session.execute("select id_inventor,nombre from cpm.inventores")
+    return future
+def cassandra_get_areas():
+    cluster = Cluster(['master'],protocol_version = 3)
+    session = cluster.connect()
+    future = session.execute("select id_area,descripcion from cpm.areas_investigacion")
+    return future
+def cassandra_get_colaboradores_por_area(areas):
+    for area in areas:
+        strquery = 'select id_colaborador, nombre'
+        #from colaboradores where area['A'] = 'Human Necessitites'
+
+
+def cassandra_get_count_colaborador(id):
+    cluster = Cluster(['master'],protocol_version = 3)
+    session = cluster.connect()
+    future = session.execute("select count(*) from cpm.colaboradores where id_colaborador = %s",[id])
+    return future
 
 def insert(fec,correo,titulo,descripcion):
     
@@ -156,7 +224,11 @@ def get_tikets_por_usuario_rango_fechas(correo,fecha1,fecha2):
 
 
 def main():
+    
+    
+    print("ijoles!")
     cassandra_insert_patentes_masivos('temporales/patents-original.json')
+    #cassandra_insert_paises('temporales/countries.json')
     #cluster = Cluster(['master'],protocol_version = 3)
     #session = cluster.connect()
 

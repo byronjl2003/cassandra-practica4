@@ -16069,7 +16069,7 @@
                 },
                 {
                     "inventor_id": "8245903-2",
-                    "inventor_country": null,
+                    "inventor_country": "NULL",
                     "inventor_first_name": "Nikolay G.",
                     "inventor_last_name": "Moroz",
                     "inventor_key_id": "2817434"
@@ -20795,7 +20795,7 @@
             "inventors": [
                 {
                     "inventor_id": "10000045-1",
-                    "inventor_country": null,
+                    "inventor_country": "NULL",
                     "inventor_first_name": "Go",
                     "inventor_last_name": "Tazaki",
                     "inventor_key_id": "25"
@@ -21830,7 +21830,7 @@
                 },
                 {
                     "inventor_id": "8017341-1",
-                    "inventor_country": null,
+                    "inventor_country": "NULL",
                     "inventor_first_name": "Igor",
                     "inventor_last_name": "Nikolaev",
                     "inventor_key_id": "2709475"

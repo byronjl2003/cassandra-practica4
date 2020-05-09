@@ -1,3 +1,27 @@
+$('#sel3').change(function(){
+    xx = $(this).val();
+    $.ajax({
+        url: '/get_colaboradores',
+        data: {
+           format: 'json',
+           otra:x
+        },
+        error: function() {
+           $('#info').html('<p>An error has occurred</p>');
+        },
+        dataType: 'jsonp',
+        success: function(data) {
+           var $title = $('<h1>').text(data.talks[0].talk_title);
+           var $description = $('<p>').text(data.talks[0].talk_description);
+           $('#info')
+              .append($title)
+              .append($description);
+        },
+        type: 'GET'
+     });
+    
+
+})
 function myFunction() {
     var x = document.getElementById("divspinner");
     var y = document.getElementById("divtable");

@@ -2,14 +2,23 @@
 from flask import Flask, request, url_for, render_template
 #import urllib
 import time
-from prueba import cassandra_insert_paises,cassandra_get_paises,cassandra_insert_patentes_masivos
+from prueba import cassandra_insert_paises,cassandra_get_paises,cassandra_insert_patentes_masivos,cassandra_get_inventores,cassandra_get_areas,cassandra_get_colaboradores_por_area
 app = Flask(__name__)
 @app.route('/')
 def index():
     countryes = cassandra_get_paises()
-    print(countryes[0])
-    return render_template("index.html",autor1 = {"nombre":"Byron","apellido":"Lopez"},paises=countryes)
-
+    #print(countryes[0])
+    inventors = cassandra_get_inventores()
+    areass = cassandra_get_areas()
+    return render_template("index.html",autor1 = {"nombre":"Byron","apellido":"Lopez"},paises=countryes,inventores=inventors,areas=areass)
+@app.route('/get_colaboradores', methods=['POST'])
+def get_colaboradores():
+    print('Llego a colaboradores')
+    a = request.args.get('format')
+    b = request.args.get('otro')
+    print(request.args)
+    print(a)
+    print(b)
 
 @app.route('/cargas')
 def cargas():
