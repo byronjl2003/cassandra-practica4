@@ -21,13 +21,13 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="/">Patentes <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="/">Patentes </a>
                     </li>
                     <li class="nav-item active">
                         <a class="nav-link" href="/cargas">Cargas </a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="/indexpaises">Paises </a>
+                        <a class="nav-link" href="/indexpaises">Paises <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item active">
                         <a class="nav-link" href="/indexcolaboradores">Colaboradores </a>
@@ -50,35 +50,51 @@
         <div class="jumbotron">
             <h1 class="display-3">Comision mundial de patentes CPM</h1>
             <div class="card text-white bg-primary mb-3" style="max-width: 100rem;">
-                <div class="card-header">Ingrese datos de la patente</div>
+                <div class="card-header">Ingrese datos del pais</div>
                 <div class="card-body">
                     <div class="row mb-2">
                         <div class="col-md-6">
                             <div class="col p-4 d-flex flex-column position-static">
-                                <form id="idFormpatentes" action="/setpatente" method="POST" enctype="application/x-www-form-urlencoded" class="ajax">
+                                <form id="idFormPais" action="/postpais" method="POST" enctype="application/x-www-form-urlencoded" class="ajax">
                                     <div class="form-group">
                                         <div class="input-gruop mb-3">
                                             
                                             <div class="form-group">
-                                                <label for="titulo">Nombre Patente</label>
-                                                <input type="text" class="form-control" id="nombre_patente" placeholder="Nombre patente" name="nombre">
+                                                <label for="nombre">Nombre</label>
+                                                <input type="text" class="form-control" id="nombre" placeholder="Nombre" name="nombre">
+                                              </div>
+                                              <br>
+                                              <div class="form-group">
+                                                <label for="alpha2">Codigo[Alpha2]</label>
+                                                <input type="text" class="form-control" id="alpha2" placeholder="Codigo[Alpha2]" name="alpha2">
+                                              </div>
+                                              <br>
+                                              <div class="form-group">
+                                                <label for="alpha3">Codigo[Alpha3]</label>
+                                                <input type="text" class="form-control" id="alpha3" placeholder="Codigo[Alpha3]" name="alpha3">
                                               </div>
                                               <div class="form-group">
-                                                <label for="descripcion">Descripcion</label>
-                                                <input type="text" class="form-control" id="descripcion placeholder="Titulo" name="descripcion">
+                                                <label for="lat">latitud</label>
+                                                <input type="number" step="0.01" class="form-control" id="latitud" placeholder="Latitud" name="latitud">
+                                              </div>
+                                              <div class="form-group">
+                                                <label for="lat">longitud</label>
+                                                <input type="number" step="0.01" class="form-control" id="longitud" placeholder="Longitud" name="longitud">
+                                              </div>
+                                              <div class="form-group">
+                                                <label for="area">Area territorial</label>
+                                                <input type="number" class="form-control" id="area" placeholder="Area territorial" name="area">
+                                              </div>
+                                              <div class="form-group">
+                                                <label for="poblacion">Poblacion</label>
+                                                <input type="number" class="form-control" id="poblacion" placeholder="Poblacion" name="poblacion">
                                               </div>
                                             
-                                            
-                                            <div class="form-group">
-                                                <label for="datepicker1">Fecha</label>
-                                                <input type="text" id="datepicker1" name="fec_presentacion">
-                                            </div>
-                                            
-                                            
+                                                                                      
                                             {% if paises: %}
                                             <div class="form-group">
-                                                <label for="selpais1">Paises:</label>
-                                                <select class="form-control" id="selpais1" name="id_pais" >
+                                                <label for="sel1">Fronteras:</label>
+                                                <select multiple class="form-control" id="selfronteras"  name="frontera">
                                                     {% for row in paises %}
                                                     <option value="{{row.alpha2}}">{{row.nombre}}</option>
                                                     {% endfor %}
@@ -86,48 +102,10 @@
                                                 </select>
                                               </div>
                                             {% endif %}
+                                            <div id="dinamicopais"  >
 
-                                            {% if inventores: %}
-                                            <div class="form-group">
-                                                <label for="selinventores1">Inventores:</label>
-                                                <select multiple class="form-control" id="selinventores1" name="inventores">
-                                                    {% for row in inventores %}
-                                                    <option value="{{row.id_inventor}}">{{row.nombre}}</option>
-                                                    {% endfor %}
-
-                                                </select>
-                                              </div>
+                                            </div>
                                               
-                                            {% endif %}
-
-                                            {% if areas: %}
-                                            <div class="form-group">
-                                                <label for="selareas1">Areas de Investigacion:</label>
-                                                <select multiple class="form-control" id="selareas1" name="areas">
-                                                    {% for row in areas %}
-                                                    <option value="{{row.id_area}}" name="{{row.id_area}}">{{row.descripcion}}</option>
-                                                    {% endfor %}
-
-                                                </select>
-                                              </div>
-                                            {% endif %}
-                                            <div id="info"  >
-
-                                            </div>
-                                            <div class="form-group">
-                                                <label for="selcolaboradores1">Colaboradores:</label>
-                                                <select multiple class="form-control" id="selcolaboradores1" name="colaboradores">
-                                                    
-                                                </select>
-                                                
-                                                
-                                              </div>
-
-                                            
-                                           
-                                              <div id="dinamico">
-
-                                            </div>
                                             <div class="input-group-append">
                                                 <input type="submit" value="Crear" class="input-group-text" />
                                                 
@@ -135,21 +113,19 @@
                                         </div>
                                     </div>
                                 </form>
-                                
+                                <div id="infopais">
+
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <br>
-            <div id="infopatentes">
-
-            </div>
             
             </div>
 
         </div>
-        
     </div>
 
     

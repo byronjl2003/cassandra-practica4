@@ -1,27 +1,352 @@
-$('#sel3').change(function(){
-    xx = $(this).val();
+$("#idFormPais").submit(function(e) {
+
+    e.preventDefault(); // avoid to execute the actual submit of the form.
+    console.log('jijijiji');
+    var form = document.getElementById("idFormPais");
+    var y = document.getElementById("infopais");
+    y.innerHTML = '<p class="loading">Creando pais</p>'
+    var data = new FormData(form);
+
     $.ajax({
-        url: '/get_colaboradores',
-        data: {
-           format: 'json',
-           otra:x
-        },
-        error: function() {
-           $('#info').html('<p>An error has occurred</p>');
-        },
-        dataType: 'jsonp',
+        type: "POST",
+        enctype: 'application/x-www-form-urlencoded',
+        url: '/postpais',
+        data: data, // serializes the form's elements.
+        processData: false,
+        contentType: false,
+        cache: false,
         success: function(data) {
-           var $title = $('<h1>').text(data.talks[0].talk_title);
-           var $description = $('<p>').text(data.talks[0].talk_description);
-           $('#info')
-              .append($title)
-              .append($description);
-        },
-        type: 'GET'
-     });
+            console.log(data); // show response from the php script.
+            y.innerHTML = data;
+        }
+    });
+
+
+});
+
+$('#selfronteras').change(function(){
+    xx = ""+$(this).val();
+    //console.log(xx);
+    var y = document.getElementById("dinamicopais");
+    //e.preventDefault(); // avoid to execute the actual submit of the form.
+    console.log('jijijiji');
+    var form = document.getElementById("idFormPais");
+    //var y = document.getElementById("reporte1");
+    //y.innerHTML = '<p>...Ejecutando...';
+    var data = new FormData(form);
+    /*
+    var x = document.getElementById("divspinner");
+   
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    }
+    */
+    $.ajax({
+        type: "POST",
+        enctype: 'application/x-www-form-urlencoded',
+        url: '/setfrontera',
+        data: data, // serializes the form's elements.
+        processData: false,
+        contentType: false,
+        cache: false,
+        success: function(data) {
+            console.log(data); // show response from the php script.
+            y.innerHTML = data;
+        }
+    });
+
+
     
 
-})
+});
+
+
+
+
+//-----------------TERMINAN COSAS DEL INGRESO DE PAIS--------------------
+//-----------------EMPIESAN COSAS PARA EL INGRESO DE LOS COLABORADORES----------
+$("#idFormcolaboradores").submit(function(e) {
+
+    e.preventDefault(); // avoid to execute the actual submit of the form.
+    console.log('jijijiji');
+    var form = document.getElementById("idFormcolaboradores");
+    var y = document.getElementById("infocolaborador");
+    y.innerHTML = '<p class="loading">Creando colaborador</p>'
+    var data = new FormData(form);
+
+    $.ajax({
+        type: "POST",
+        enctype: 'application/x-www-form-urlencoded',
+        url: '/postcolaborador',
+        data: data, // serializes the form's elements.
+        processData: false,
+        contentType: false,
+        cache: false,
+        success: function(data) {
+            console.log(data); // show response from the php script.
+            y.innerHTML = data;
+        }
+    });
+
+
+});
+
+$('#selareas').change(function(){
+    xx = ""+$(this).val();
+    //console.log(xx);
+    var y = document.getElementById("dinamicocolaboradores");
+    //e.preventDefault(); // avoid to execute the actual submit of the form.
+    console.log('jijijiji');
+    var form = document.getElementById("idFormcolaboradores");
+    //var y = document.getElementById("reporte1");
+    //y.innerHTML = '<p>...Ejecutando...';
+    var data = new FormData(form);
+    /*
+    var x = document.getElementById("divspinner");
+   
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    }
+    */
+    $.ajax({
+        type: "POST",
+        enctype: 'application/x-www-form-urlencoded',
+        url: '/setareacolaborador',
+        data: data, // serializes the form's elements.
+        processData: false,
+        contentType: false,
+        cache: false,
+        success: function(data) {
+            console.log(data); // show response from the php script.
+            y.innerHTML = data;
+        }
+    });
+
+
+    
+
+});
+
+
+
+
+
+
+//----------------- TERMINAN COSAS PARA EL INGRESO DE COLABORADORES
+//##################EMPIEZAN LAS COSAS PARA EL INGRESO DE LAS PATENTES
+//dinamico de pais no.. por que solo se escoje uno..
+$('#selinventores1').change(function(){
+    xx = ""+$(this).val();
+    //console.log(xx);
+    var y = document.getElementById("dinamico");
+    //e.preventDefault(); // avoid to execute the actual submit of the form.
+    console.log('jijijiji');
+    var form = document.getElementById("idFormpatentes");
+    //var y = document.getElementById("reporte1");
+    //y.innerHTML = '<p>...Ejecutando...';
+    var data = new FormData(form);
+    /*
+    var x = document.getElementById("divspinner");
+   
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    }
+    */
+    $.ajax({
+        type: "POST",
+        enctype: 'application/x-www-form-urlencoded',
+        url: '/set_inventorespatente',
+        data: data, // serializes the form's elements.
+        processData: false,
+        contentType: false,
+        cache: false,
+        success: function(data) {
+            console.log(data); // show response from the php script.
+            y.innerHTML = data;
+        }
+    });
+
+});
+
+$('#selareas1').change(function(){
+    xx = ""+$(this).val();
+    //console.log(xx);
+    var y = document.getElementById("selcolaboradores1");
+    //e.preventDefault(); // avoid to execute the actual submit of the form.
+    console.log('jijijiji');
+    var form = document.getElementById("idFormpatentes");
+    //var y = document.getElementById("reporte1");
+    //y.innerHTML = '<p>...Ejecutando...';
+    var data = new FormData(form);
+    /*
+    var x = document.getElementById("divspinner");
+   
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    }
+    */
+    $.ajax({
+        type: "POST",
+        enctype: 'application/x-www-form-urlencoded',
+        url: '/get_colaboradores',
+        data: data, // serializes the form's elements.
+        processData: false,
+        contentType: false,
+        cache: false,
+        success: function(data) {
+            console.log(data); // show response from the php script.
+            y.innerHTML = data;
+        }
+    });
+
+
+    
+
+});
+$('#selcolaboradores1').change(function(){
+    xx = ""+$(this).val();
+    //console.log(xx);
+    var y = document.getElementById("dinamico");
+    //e.preventDefault(); // avoid to execute the actual submit of the form.
+    console.log('jijijiji');
+    var form = document.getElementById("idFormpatentes");
+    //var y = document.getElementById("reporte1");
+    //y.innerHTML = '<p>...Ejecutando...';
+    var data = new FormData(form);
+    /*
+    var x = document.getElementById("divspinner");
+   
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    }
+    */
+    $.ajax({
+        type: "POST",
+        enctype: 'application/x-www-form-urlencoded',
+        url: '/set_colaboradorespatente',
+        data: data, // serializes the form's elements.
+        processData: false,
+        contentType: false,
+        cache: false,
+        success: function(data) {
+            console.log(data); // show response from the php script.
+            y.innerHTML = data;
+        }
+    });
+
+
+    
+
+});
+
+$("#idFormpatentes").submit(function(e) {
+
+    e.preventDefault(); // avoid to execute the actual submit of the form.
+    console.log('jijijiji');
+    var form = document.getElementById("idFormpatentes");
+    //var y = document.getElementById("divcards");
+    var y = document.getElementById("infopatentes");
+    var data = new FormData(form);
+    y.innerHTML = '<p class="loading">Cargando paises</p>'
+    $.ajax({
+        type: "POST",
+        enctype: 'application/x-www-form-urlencoded',
+        url: '/setpatente',
+        data: data, // serializes the form's elements.
+        processData: false,
+        contentType: false,
+        cache: false,
+        success: function(data) {
+            console.log(data); // show response from the php script.
+            y.innerHTML = data;
+        }
+    });
+
+
+});
+
+
+//###############################################TERMINA LAS ONDAS PARA EL INGRESO DE PATENTES
+
+
+//#############################REPORTEE
+$("#idFormreporte1").submit(function(e) {
+
+    e.preventDefault(); // avoid to execute the actual submit of the form.
+    console.log('jijijiji');
+    var form = document.getElementById("idFormreporte1");
+    var y = document.getElementById("inforeporte1");
+    y.innerHTML = '<p class="loading">Calculando reporte</p>'
+    var data = new FormData(form);
+
+    $.ajax({
+        type: "POST",
+        enctype: 'application/x-www-form-urlencoded',
+        url: '/getreporte1',
+        data: data, // serializes the form's elements.
+        processData: false,
+        contentType: false,
+        cache: false,
+        success: function(data) {
+            console.log(data); // show response from the php script.
+            y.innerHTML = data;
+        }
+    });
+
+
+});
+$("#idFormreporte2").submit(function(e) {
+
+    e.preventDefault(); // avoid to execute the actual submit of the form.
+    console.log('jijijiji');
+    var form = document.getElementById("idFormreporte2");
+    var y = document.getElementById("inforeporte2");
+    y.innerHTML = '<p class="loading">Calculando reporte</p>'
+    var data = new FormData(form);
+
+    $.ajax({
+        type: "POST",
+        enctype: 'application/x-www-form-urlencoded',
+        url: '/getreporte2',
+        data: data, // serializes the form's elements.
+        processData: false,
+        contentType: false,
+        cache: false,
+        success: function(data) {
+            console.log(data); // show response from the php script.
+            y.innerHTML = data;
+        }
+    });
+
+
+});
+$("#idFormreporte3").submit(function(e) {
+
+    e.preventDefault(); // avoid to execute the actual submit of the form.
+    console.log('jijijiji');
+    var form = document.getElementById("idFormreporte3");
+    var y = document.getElementById("inforeporte3");
+    y.innerHTML = '<p class="loading">Calculando reporte</p>'
+    var data = new FormData(form);
+
+    $.ajax({
+        type: "POST",
+        enctype: 'application/x-www-form-urlencoded',
+        url: '/getreporte3',
+        data: data, // serializes the form's elements.
+        processData: false,
+        contentType: false,
+        cache: false,
+        success: function(data) {
+            console.log(data); // show response from the php script.
+            y.innerHTML = data;
+        }
+    });
+
+
+});
+
+///////////////////////////////////////////////////
 function myFunction() {
     var x = document.getElementById("divspinner");
     var y = document.getElementById("divtable");
@@ -73,6 +398,9 @@ function uploadd() {
 }
 
 $( function() {
+    $( "#datepickercolaboradores" ).datepicker({
+        dateFormat: "yy-mm-dd"
+      });
     $( "#datepicker1" ).datepicker({
         dateFormat: "yy-mm-dd"
       });
@@ -88,120 +416,8 @@ $( function() {
     $( "#datepicker5" ).datepicker({
         dateFormat: "yy-mm-dd"
       });
+
+      
   } );
 
-  $("#idForm").submit(function(e) {
-
-    e.preventDefault(); // avoid to execute the actual submit of the form.
-    console.log('jijijiji');
-    var form = document.getElementById("idForm");
-    //var y = document.getElementById("divcards");
-    var x = document.getElementById("div-carga-paises");
-    var data = new FormData(form);
-    x.innerHTML = '<p class="loading">Cargando paises</p>'
-    $.ajax({
-        type: "POST",
-        enctype: 'multipart/form-data',
-        url: '/paises',
-        data: data, // serializes the form's elements.
-        processData: false,
-        contentType: false,
-        cache: false,
-        success: function(data) {
-            console.log(data); // show response from the php script.
-            x.innerHTML = '<p>Terminado</p>';
-        }
-    });
-
-
-});
-$("#FormCargaPatentes").submit(function(e) {
-
-    e.preventDefault(); // avoid to execute the actual submit of the form.
-    console.log('jujujuju');
-    var form = document.getElementById("FormCargaPatentes");
-    //var y = document.getElementById("divcards");
-    var x = document.getElementById("div-carga-patentes");
-    var data = new FormData(form);
-    x.innerHTML = '<p class="loading">Cargando patentes</p>'
-    $.ajax({
-        type: "POST",
-        enctype: 'multipart/form-data',
-        url: '/carga_patentes',
-        data: data, // serializes the form's elements.
-        processData: false,
-        contentType: false,
-        cache: false,
-        success: function(data) {
-            console.log(data); // show response from the php script.
-            x.innerHTML = '<p>Terminado</p>';
-        }
-    });
-
-
-});
-$("#idForm2").submit(function(e) {
-
-    e.preventDefault(); // avoid to execute the actual submit of the form.
-    console.log('jijijiji');
-    var form = document.getElementById("idForm2");
-    var y = document.getElementById("reporte1");
-    y.innerHTML = '<p>...Ejecutando...';
-    var data = new FormData(form);
-    /*
-    var x = document.getElementById("divspinner");
-   
-    if (x.style.display === "none") {
-        x.style.display = "block";
-    }
-    */
-    $.ajax({
-        type: "POST",
-        enctype: 'application/x-www-form-urlencoded',
-        url: '/reporte1',
-        data: data, // serializes the form's elements.
-        processData: false,
-        contentType: false,
-        cache: false,
-        success: function(data) {
-            console.log(data); // show response from the php script.
-            y.innerHTML = data;
-        }
-    });
-
-
-});
-
-
-$("#idForm3").submit(function(e) {
-
-    e.preventDefault(); // avoid to execute the actual submit of the form.
-    console.log('jijijiji');
-    var form = document.getElementById("idForm3");
-    var y = document.getElementById("reporte2");
-    y.innerHTML = '<p>...Ejecutando...';
-    var data = new FormData(form);
-    /*
-    var x = document.getElementById("divspinner");
-   
-    if (x.style.display === "none") {
-        x.style.display = "block";
-    }
-    */
-    $.ajax({
-        type: "POST",
-        enctype: 'application/x-www-form-urlencoded',
-        url: '/reporte2',
-        data: data, // serializes the form's elements.
-        processData: false,
-        contentType: false,
-        cache: false,
-        success: function(data) {
-            console.log(data); // show response from the php script.
-            y.innerHTML = data;
-        }
-    });
-
-
-});
 
