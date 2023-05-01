@@ -1,2 +1,2 @@
-Flask==1.1.1
+Flask==2.3.2
 cassandra-driver==3.23.0
